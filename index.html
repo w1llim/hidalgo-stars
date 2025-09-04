@@ -2,40 +2,42 @@
 <html>
     <head>
         <title>Test Page PPPPP</title>
+        <style>
+            .home-bar {
+                display: flex;
+                background-color: #222;
+                padding: 10px;
+                align-items: center;
+            }
+            .home-bar button {
+                margin-right: 10px;
+                background: #444;
+                color: #fff;
+                border: none;
+                padding: 8px 16px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .home-bar button:hover {
+                background: #666;
+            }
+        </style>
     </head>
     <body>
+        <div class="home-bar">
+            <button>Home</button>
+            <button>About</button>
+            <button>Services</button>
+            <button>Contact</button>
+            <button>Login</button>
+        </div>
         <h1>Welcome to the Test Page PPPPP</h1>
         <button onclick="alert('Button 1 clicked!')">Button 1</button>
         <button onclick="alert('Button 2 clicked!')">Button 2</button>
         <button onclick="alert('Button 3 clicked!')">Button 3</button>
         <button onclick="alert('Button 4 clicked!')">Button 4</button>
 
-        <!-- Floating Home Bar -->
-        <div id="floating-home-bar">
-            <a href="/" id="home-link">🏠 Home</a>
-        </div>
-
-        <style>
-            #floating-home-bar {
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-                background: #222;
-                color: #fff;
-                padding: 12px 24px;
-                border-radius: 30px;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-                z-index: 1000;
-                font-size: 18px;
-            }
-            #floating-home-bar a {
-                color: #fff;
-                text-decoration: none;
-                font-weight: bold;
-            }
-            #floating-home-bar a:hover {
-                text-decoration: underline;
-            }
-        </style>
+        
+    
     </body>
 </html>
