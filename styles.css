@@ -3,6 +3,13 @@
     background-color: #005baa;
     padding: 10px;
     align-items: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-sizing: border-box;
 }
 .home-bar button {
     margin-right: 10px;
@@ -15,4 +22,8 @@
 }
 .home-bar button:hover {
     background: #666;
+}
+body {
+    margin: 0;
+    padding-top: 50px; /* adjust if needed to avoid content under bar */
 }
