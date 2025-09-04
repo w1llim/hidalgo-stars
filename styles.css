@@ -1,7 +1,7 @@
 .home-bar {
     display: flex;
     background-color: #005baa;
-    padding: 10px;
+    padding: 0; /* Remove internal padding */
     align-items: center;
     width: 100vw;
     position: fixed;
@@ -10,6 +10,7 @@
     right: 0;
     z-index: 1000;
     box-sizing: border-box;
+    margin: 0; /* Remove external margin */
 }
 .home-bar button {
     margin-right: 10px;
