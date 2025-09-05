@@ -27,4 +27,5 @@
 body {
     margin: 0;
     padding-top: 50px; /* adjust if needed to avoid content under bar */
+    padding-bottom: 15px;
 }
