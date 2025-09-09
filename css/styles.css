@@ -3,7 +3,8 @@
     background-color: #005baa;
     padding: 0; /* Remove internal padding */
     align-items: center;
-    width: 100vw;
+    width: 100vw; /* Full viewport width */
+    height: 100px; /* Fixed height */
     position: fixed;
     top: 0;
     left: 0;
